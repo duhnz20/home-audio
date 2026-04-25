@@ -1,39 +1,25 @@
 # Power Conditioning & Protection
 
-## Current topology
-
-```
-Wall → Furman M-8x2 → AV gear
-```
-
-Single point of distribution, surge protection, and EMI/RFI filtering.
-
-## Planned topology (after upgrade)
-
-The **Furman P-1800 AR is on hand to replace the M-8x2** (not stack with it). After the swap:
+## Topology
 
 ```
 Wall → Furman P-1800 AR → AV gear
 ```
 
-The upgrade trades the M-8x2 for active voltage regulation (AVR — keeps line voltage near 120 V) on top of the surge + conditioning the M-8x2 already provides.
+Single point of voltage regulation, conditioning, and series-mode surge protection for the rack.
 
-## Furman M-8x2 (in service)
-
-- Function: distribution + surge + filtering (passive)
-- Form factor: 1U rack, 8 rear outlets
-- Use: feeds AVR + power amp + sources
-
-## Furman P-1800 AR (pending swap)
+## Furman P-1800 AR (in service)
 
 - Function: voltage regulation + power conditioning + series-mode surge
-- Adds: AVR vs M-8x2's passive-only design
-- Watch after install: front-panel voltage display — if line voltage drifts more than ±10 V from 120 V the AR is doing real work; record readings if it ever clips or trips
-- Pre-swap checklist:
-  - Confirm P-1800 AR outlet count covers all rack gear currently on M-8x2
-  - Confirm rack space / form factor (P-1800 is also rack-mount but verify depth)
-  - Plan a downtime window (rack power-cycle)
-  - Note current channel trims / settings before swap so any new ground/voltage condition can be compared
+- Adds vs the M-8x2 it replaced: active voltage regulation (AVR — keeps line voltage near 120 V across input range ~97-141 V)
+- Front-panel display: input voltage, output voltage, current draw — useful for passively monitoring line quality
+- Extreme-voltage shutdown: cuts power to the rack if input voltage goes outside the safe operating range
+
+## Furman M-8x2 (retired)
+
+- Previously in service, replaced by the P-1800 AR
+- Function had been: passive surge + EMI/RFI filtering + 8-outlet rack distribution
+- No longer in the signal/power path
 
 ## What's protected vs not
 
@@ -47,7 +33,13 @@ The upgrade trades the M-8x2 for active voltage regulation (AVR — keeps line v
 
 ## Things to log here
 
-- Date M-8x2 → P-1800 AR swap completed
-- Any voltage anomalies displayed by the P-1800 AR after install
+- Date of M-8x2 → P-1800 AR swap (recorded in maintenance-log.md)
+- Periodic line voltage readings from the AR's front-panel display
 - Any clamp/event indicators triggered
-- Replacement of MOVs / surge cells (manufacturer-specific lifetime)
+- Any extreme-voltage shutdown events
+- Replacement of MOVs / surge cells (manufacturer-specific lifetime — series-mode parts have less degradation than MOV)
+
+## Operational notes
+
+- Inrush on power-up: the P-1800 AR has a non-trivial transformer; flipping its master switch can momentarily dim other devices on the same circuit. Not damaging, just expected behavior.
+- If line voltage display drifts more than ±10 V from 120 V chronically, contact ComEd — chronic out-of-range voltage is utility-side, not gear-side.

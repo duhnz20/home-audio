@@ -20,7 +20,7 @@
                      │
         ┌────────────┼────────────┬─────────────┐
         ▼            ▼            ▼             ▼
-   KEF R3 (FL)  KEF R3 (FR)  KEF Q250C    KEF Q150 × 2
+   KEF R3 (FL)  KEF R3 (FR)  KEF R2c     KEF Q150 × 2
                               (Center)    (Surround L/R)
 ```
 
@@ -52,22 +52,7 @@
 - **No idle internal amplifier stages** — the SR5014's amp section is bypassed entirely; the AVR only supplies preamp-level RCA out.
 - **All 7 Emotiva channels are in use** — there is no spare amp channel for adding height/Atmos or surround-back without re-architecting (e.g., adding a second amp).
 
-## Power Chain (current)
-
-```
- Wall outlet
-    │
-    ▼
- Furman M-8x2     (rack distribution + surge + filtering)
-    │
-    ├─► Marantz SR5014
-    ├─► Emotiva BasX A7+
-    └─► Source components
-```
-
-## Power Chain (planned, post-swap)
-
-The Furman P-1800 AR is on hand to **replace** the M-8x2 (not added in front of it):
+## Power Chain
 
 ```
  Wall outlet
@@ -80,6 +65,6 @@ The Furman P-1800 AR is on hand to **replace** the M-8x2 (not added in front of 
     └─► Source components
 ```
 
-Trade-off: the P-1800 AR brings AVR (active voltage regulation) but has different outlet count / form factor than the M-8x2. Verify outlet capacity covers all rack gear before swapping.
+The P-1800 AR replaced the previous M-8x2; the M-8x2 is retired.
 
 The BIC F-12 sub typically plugs into wall (or its own surge strip) due to current draw — confirm whether it's on the Furman chain or separate.
