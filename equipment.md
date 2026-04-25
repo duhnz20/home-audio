@@ -18,7 +18,7 @@
 |---|---|---|
 | Source / control | Marantz SR5014 Zone 2 | Pre-out → Emotiva (NOT SR5014's internal amps) |
 | Power amp channels | Emotiva BasX A7+ ch 6 & 7 | Same physical amp as main room; channel assignment via SR5014 Amp Assign menu |
-| Speakers | KEF Q500 | Floorstanding stereo pair, front L/R only |
+| Speakers | KEF Q500 | Floorstanding stereo pair, front L/R only. Mounted on **IsoAcoustics Gaia III** isolation feet (decouples cabinet from floor; tightens bass and stereo image). |
 
 ## Channel allocation across the Emotiva BasX A7+
 
@@ -55,6 +55,41 @@ The SR5014's two HDMI outputs allow video to drive either or both TVs while audi
 |---|---|---|
 | Furman Prestige Series P-1800 PF R | **In service** | Power Factor Technology (45A peak current reservoir for transient delivery to A7+) + 3 isolated banks + SMP / EVS / LiFT + 6,500A surge max |
 
-## Cabling notes
+## Cabling
 
-(To be filled in: speaker cable gauges, interconnect brands, lengths, RCA vs balanced, HDMI versions in use.)
+### Speaker wire (all speakers, both zones)
+| Item | Spec |
+|---|---|
+| Wire | **GEARit 14 Gauge Speaker Wire (CCA, white)** — 14 AWG copper-clad aluminum |
+| Termination | **WGGE WG-3333 24k Gold-Plated Speaker Banana Plugs (closed screw type)** on every speaker post end |
+
+The same wire + plug combination is used for **all 7 amp-driven speakers** (KEF R3 L/R, R2 Meta center, Q150 surround L/R, Q500 Zone 2 L/R) at both the Emotiva BasX A7+ binding post end and the speaker binding post end.
+
+**14 AWG sanity check:** 14 AWG handles ≤25-30 ft runs at 4-8 Ω without meaningful resistive loss; appropriate for the longest run in this house. CCA (vs pure copper) is ~70% the conductivity of OFC at the same gauge — gauge oversizing compensates. Banana plugs are closed-screw (mechanical, no solder) — strip wire, insert into screw barrel, tighten.
+
+### Subwoofer interconnect
+| Item | Spec |
+|---|---|
+| Cable | (TBD — RCA from SR5014 sub/LFE pre-out → BIC F-12 RCA input) |
+
+### Pre-out interconnects (SR5014 → Emotiva)
+| Item | Spec |
+|---|---|
+| 5.1 pre-outs (FL/FR/C/SL/SR) | (TBD — RCA, 5 cables) |
+| Zone 2 pre-outs (L/R) | (TBD — RCA, 2 cables) |
+
+### HDMI cabling
+| Run | Cable |
+|---|---|
+| Apple TV → SR5014 HDMI IN 5 | Ultra Clarity CL3-rated flat HDMI 2.0 high-speed |
+| SR5014 HDMI OUT Monitor 1 ↔ LG 75UN7370PUE (Zone 1, eARC) | Ultra Clarity CL3-rated flat HDMI 2.0 high-speed |
+| SR5014 HDMI OUT Monitor 2 → LG NanO75UQA (Zone 2) | Ultra Clarity CL3-rated flat HDMI 2.0 high-speed |
+
+## Speaker isolation / mounting
+| Speaker | Mounting | Notes |
+|---|---|---|
+| KEF R3 (Front L/R) | (TBD — stands? speaker shelves?) | |
+| KEF R2 Meta (Center) | (TBD) | |
+| KEF Q150 (Surrounds) | (TBD — wall mount? stands?) | |
+| KEF Q500 (Zone 2 L/R) | **IsoAcoustics Gaia III** isolation feet | Decouples cabinet from floor — reduces structure-borne resonance, tightens bass definition and stereo image |
+| BIC F-12 (Sub) | (TBD — direct on floor? isolation pad?) | |
