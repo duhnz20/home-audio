@@ -1,14 +1,14 @@
 # Equipment Inventory
 
-## Main Room — Zone 1 (Home Theater, 7.1)
+## Main Room — Zone 1 (Home Theater, 5.1)
 
 | Role | Make / Model | Notes |
 |---|---|---|
-| AVR / Processor | Marantz SR5014 | Pre-outs feeding external amp; internal amps unused for main zone |
-| External power amp | Emotiva BasX A7+ | 7-channel, drives all main-room speakers |
+| AVR / Processor | Marantz SR5014 | Pre-outs feeding external amp; **no internal amps used by any speaker** |
+| External power amp | Emotiva BasX A7+ | 7-channel — drives ALL speakers in the house (5 main room + 2 Zone 2) |
 | Front L/R | KEF R3 | Bookshelf, 3-way coaxial Uni-Q + bass driver |
-| Center | KEF Q250C | Q-series center, timbre-matched to surrounds |
-| Surrounds (L/R, RL/RR) | KEF Q150 | 4 units total (side and rear pairs) |
+| Center | KEF Q250C | Q-series center |
+| Surrounds (L/R) | KEF Q150 | Pair (assumed — confirm count) |
 | Subwoofer | BIC America Formula F-12 | Powered, 12", connected via RCA from SR5014 sub out |
 | Room correction | Audyssey (built into SR5014) | Run from MultEQ mic that ships with the AVR |
 
@@ -16,8 +16,23 @@
 
 | Role | Make / Model | Notes |
 |---|---|---|
-| Source / control | Marantz SR5014 Zone 2 | Driven from internal Zone 2 amp section of SR5014 |
+| Source / control | Marantz SR5014 Zone 2 | Pre-out → Emotiva (NOT SR5014's internal amps) |
+| Power amp channels | Emotiva BasX A7+ ch 6 & 7 | Same physical amp as main room; channel assignment via SR5014 Amp Assign menu |
 | Speakers | KEF Q500 | Floorstanding stereo pair, front L/R only |
+
+## Channel allocation across the Emotiva BasX A7+
+
+| Amp ch | Speaker | Zone |
+|---|---|---|
+| 1 | KEF R3 (Front L) | Main 1 |
+| 2 | KEF R3 (Front R) | Main 1 |
+| 3 | KEF Q250C (Center) | Main 1 |
+| 4 | KEF Q150 (Surround L) | Main 1 |
+| 5 | KEF Q150 (Surround R) | Main 1 |
+| 6 | KEF Q500 (Living L) | Zone 2 |
+| 7 | KEF Q500 (Living R) | Zone 2 |
+
+All 7 amp channels in use. No surround-back / 7.1 capacity available without freeing one of these channels.
 
 ## Power Protection / Conditioning
 

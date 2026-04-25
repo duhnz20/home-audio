@@ -37,7 +37,9 @@ Likely culprits in order:
 1. SR5014 menu → Zone 2 ON?
 2. Source assigned to Zone 2 (separate from Zone 1 source)
 3. Zone 2 volume not at -∞
-4. KEF Q500 wired to **Zone 2** speaker terminals on SR5014 (not the main amp terminals — those are unused since Emotiva drives main)
+4. SR5014 Zone 2 pre-out RCA cable seated at SR5014 and at Emotiva ch 6/7 inputs (Q500s are driven by the Emotiva, NOT the SR5014's internal Zone 2 amps)
+5. Emotiva BasX A7+ powered on (the same amp that drives main room — if main is silent too, this is the cause)
+6. SR5014 Amp Assign menu still set for "5ch + Zone 2 pre-out" topology (a factory reset would revert to 7.1 internal amps and break this path)
 
 ## Audyssey calibration won't complete
 
