@@ -58,13 +58,14 @@
  Wall outlet
     │
     ▼
- Furman P-1800 AR  (voltage regulation + conditioning + surge)
+ Furman Prestige Series P-1800 PF R
+    (Power Factor Tech / 45A peak reservoir / 3 isolated banks / SMP / LiFT)
     │
     ├─► Marantz SR5014
-    ├─► Emotiva BasX A7+
+    ├─► Emotiva BasX A7+   (high-current bank — benefits from PF reservoir on transients)
     └─► Source components
-```
 
-The P-1800 AR replaced the previous M-8x2; the M-8x2 is retired.
+History: M-8x2 → P-1800 AR (briefly) → P-1800 PF R (current).
+```
 
 The BIC F-12 sub typically plugs into wall (or its own surge strip) due to current draw — confirm whether it's on the Furman chain or separate.

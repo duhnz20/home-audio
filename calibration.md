@@ -23,7 +23,7 @@
 
 - LFE crossover (typically 80 Hz)
 - Front L/R crossover (small vs large; R3s are usually set to "small" with 60-80 Hz crossover for best blend with sub)
-- Center crossover (Q250C → 80 Hz)
+- Center crossover (R2 Meta → 80 Hz)
 - Surround crossover (Q150 → 100-120 Hz typical)
 - Subwoofer level trim
 - Audyssey Dynamic EQ on/off

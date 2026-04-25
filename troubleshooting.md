@@ -27,7 +27,7 @@ Likely culprits in order:
 
 ## Hum or buzz in speakers
 
-1. Ground loop — try lifting one ground (Furman P-1800 AR has filtered outlets that often help)
+1. Ground loop — try lifting one ground (the Furman Prestige Series P-1800 PF R's 3 isolated banks often help; try moving the offending source to a different bank)
 2. Check that all gear is on the same Furman / circuit
 3. Disconnect inputs one by one to isolate which source introduces the hum
 4. RCA cable shielding — try a different sub cable; sub interconnects are notorious for picking up noise
@@ -49,12 +49,12 @@ Likely culprits in order:
 
 ## SR5014 won't power on
 
-1. Furman P-1800 AR powered? (Front display should show line voltage)
-2. Furman M-8x2 outlet for SR5014 not tripped?
-3. SR5014 standby LED behavior — solid red = standby OK; flashing = fault
-4. If recently moved/reseated cables, verify HDMI cable not shorting power circuit (rare but happens)
+1. Furman Prestige Series P-1800 PF R powered? (Front display should show line voltage)
+2. SR5014 standby LED behavior — solid red = standby OK; flashing = fault
+3. If recently moved/reseated cables, verify HDMI cable not shorting power circuit (rare but happens)
 
-## P-1800 AR shows abnormal voltage
+## P-1800 PF R shows abnormal voltage or shuts down
 
-- **<108 V or >132 V**: line is genuinely unstable; AR is doing what it's supposed to. If it's chronic, contact ComEd.
-- **Constantly clamping / making noise**: possible internal MOV degradation; consider service.
+- **<90 V or >140 V**: EVS has tripped — line is out of safe operating range. Wait for voltage to normalize or investigate utility-side issue.
+- **Display reads <108 V or >132 V (but >90 / <140)**: line is unstable but PF R is passing it through (no AVR). If chronic, contact ComEd, or consider AVR-equipped Furman.
+- **Constantly clamping / unusual noise**: possible internal protection degradation; consider service. SMP is non-sacrificial so this is rare.

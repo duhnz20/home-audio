@@ -7,7 +7,7 @@
 | AVR / Processor | Marantz SR5014 | Pre-outs feeding external amp; **no internal amps used by any speaker** |
 | External power amp | Emotiva BasX A7+ | 7-channel — drives ALL speakers in the house (5 main room + 2 Zone 2) |
 | Front L/R | KEF R3 | Bookshelf, 3-way coaxial Uni-Q + bass driver |
-| Center | KEF R2 Meta | R-series Meta center — 12th-gen Uni-Q + Metamaterial Absorption Technology (MAT); replaced Q250C. Voiced to match original R-series. |
+| Center | KEF R2 Meta | R-series Meta center — 12th-gen Uni-Q + Metamaterial Absorption Technology (MAT). Voiced to match original R-series. |
 | Surrounds (L/R) | KEF Q150 | Pair |
 | Subwoofer | BIC America Formula F-12 | Powered, 12", connected via RCA from SR5014 sub out |
 | Room correction | Audyssey (built into SR5014) | Run from MultEQ mic that ships with the AVR |
@@ -38,8 +38,7 @@ All 7 amp channels in use. No surround-back / 7.1 capacity available without fre
 
 | Make / Model | Status | Role |
 |---|---|---|
-| Furman P-1800 AR | **In service** | Active voltage regulation + conditioning + series-mode surge for entire AV rack |
-| Furman M-8x2 | Retired | Replaced by P-1800 AR |
+| Furman Prestige Series P-1800 PF R | **In service** | Power Factor Technology (45A peak current reservoir for transient delivery to A7+) + 3 isolated banks + SMP / EVS / LiFT + 6,500A surge max |
 
 ## Cabling notes
 
