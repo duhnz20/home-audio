@@ -21,10 +21,10 @@
 
 ## Power Protection / Conditioning
 
-| Make / Model | Role |
-|---|---|
-| Furman P-1800 AR | Voltage regulator + conditioner; recently added, sits in front of M-8x2 |
-| Furman M-8x2 | Downstream rack distribution and surge protection |
+| Make / Model | Status | Role |
+|---|---|---|
+| Furman M-8x2 | **In service** | Single point of distribution + surge + filtering for the rack |
+| Furman P-1800 AR | **On hand, pending swap** | Will replace the M-8x2; adds active voltage regulation on top of conditioning |
 
 ## Cabling notes
 

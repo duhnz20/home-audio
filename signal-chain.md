@@ -40,7 +40,22 @@
 - Driven by the SR5014's internal Zone 2 amplifier — Emotiva is not in this path.
 - Source can be any input the SR5014 can switch into Zone 2 (analog inputs, network audio).
 
-## Power Chain
+## Power Chain (current)
+
+```
+ Wall outlet
+    │
+    ▼
+ Furman M-8x2     (rack distribution + surge + filtering)
+    │
+    ├─► Marantz SR5014
+    ├─► Emotiva BasX A7+
+    └─► Source components
+```
+
+## Power Chain (planned, post-swap)
+
+The Furman P-1800 AR is on hand to **replace** the M-8x2 (not added in front of it):
 
 ```
  Wall outlet
@@ -48,12 +63,11 @@
     ▼
  Furman P-1800 AR  (voltage regulation + conditioning + surge)
     │
-    ▼
- Furman M-8x2      (rack distribution + surge)
-    │
     ├─► Marantz SR5014
     ├─► Emotiva BasX A7+
     └─► Source components
 ```
+
+Trade-off: the P-1800 AR brings AVR (active voltage regulation) but has different outlet count / form factor than the M-8x2. Verify outlet capacity covers all rack gear before swapping.
 
 The BIC F-12 sub typically plugs into wall (or its own surge strip) due to current draw — confirm whether it's on the Furman chain or separate.

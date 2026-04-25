@@ -37,10 +37,10 @@ sources → Marantz SR5014 Zone 2 outputs
        → KEF Q500 (Living Room front pair)
 ```
 
-**Power chain:**
+**Power chain (current):**
 
 ```
-Wall → Furman P-1800 AR (front-end conditioner)
-     → Furman M-8x2 (downstream distribution)
-     → SR5014, Emotiva BasX A7+, sources
+Wall → Furman M-8x2 → SR5014, Emotiva BasX A7+, sources
 ```
+
+The Furman P-1800 AR is on hand to **replace** the M-8x2 (not stack with it).
