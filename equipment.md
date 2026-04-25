@@ -44,10 +44,10 @@ All 7 amp channels in use. No surround-back / 7.1 capacity available without fre
 ### Displays
 | Zone | Make / Model | Connection |
 |---|---|---|
-| Zone 1 (Main Room) | LG 75UN7370PUE (75" 4K UHD) | SR5014 **HDMI OUT Monitor 1** → TV. Ultra Clarity CL3-rated flat HDMI 2.0 high-speed cable. |
-| Zone 2 (Living Room) | LG NanO75UQA (NanoCell 75 series) | SR5014 **HDMI OUT Monitor 2** → TV. Ultra Clarity CL3-rated flat HDMI 2.0 high-speed cable. |
+| Zone 1 (Main Room) | LG 75UN7370PUE (75" 4K UHD) | SR5014 **HDMI OUT Monitor 1 (eARC)** ↔ TV. Ultra Clarity CL3-rated flat HDMI 2.0 high-speed cable. eARC return brings TV-app and built-in-tuner audio back into the SR5014 → Emotiva → KEF chain. |
+| Zone 2 (Living Room) | LG NanO75UQA (NanoCell 75 series) | SR5014 **HDMI OUT Monitor 2** → TV. Ultra Clarity CL3-rated flat HDMI 2.0 high-speed cable. Video-only (no return path). |
 
-The SR5014's two HDMI outputs allow video to drive either or both TVs while audio stays on the receiver and feeds the speaker chain.
+The SR5014's two HDMI outputs allow video to drive either or both TVs while audio stays on the receiver and feeds the speaker chain. Only Monitor 1 carries eARC; Monitor 2 is one-way video out.
 
 ## Power Protection / Conditioning
 

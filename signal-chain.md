@@ -16,14 +16,15 @@ Currently the only HDMI source. SR5014 has 7 HDMI inputs total; remaining inputs
 The SR5014 has two HDMI outputs (Monitor 1 and Monitor 2) which can mirror or independently route video. Audio always stays on the receiver and feeds the speaker chain.
 
 ```
- SR5014 HDMI OUT Monitor 1 ──► LG 75UN7370PUE  (Zone 1 / Main Room TV, 75")
-                              (Ultra Clarity CL3-rated flat HDMI 2.0 high-speed)
+ SR5014 HDMI OUT Monitor 1 ◄──► LG 75UN7370PUE  (Zone 1 / Main Room TV, 75")
+   [eARC enabled]                (Ultra Clarity CL3-rated flat HDMI 2.0 high-speed)
+   Audio return: TV apps / built-in tuner audio → SR5014 → speaker chain
 
- SR5014 HDMI OUT Monitor 2 ──► LG NanO75UQA    (Zone 2 / Living Room TV)
-                              (Ultra Clarity CL3-rated flat HDMI 2.0 high-speed)
+ SR5014 HDMI OUT Monitor 2 ───► LG NanO75UQA    (Zone 2 / Living Room TV)
+                                (Ultra Clarity CL3-rated flat HDMI 2.0 high-speed)
 ```
 
-Both runs use the same Ultra Clarity CL3-rated flat HDMI 2.0 high-speed cable (in-wall safety rated).
+Both runs use the same Ultra Clarity CL3-rated flat HDMI 2.0 high-speed cable (in-wall safety rated). **Monitor 1 is configured for eARC** — audio from the LG 75UN7370PUE's smart apps and built-in tuner returns to the SR5014 over the same HDMI cable, so Zone 1 TV audio plays through the full Emotiva → KEF chain. Monitor 2 is video-only out (no return path needed for the Zone 2 TV).
 
 ## Zone 1 — Main Room (5.1)
 
