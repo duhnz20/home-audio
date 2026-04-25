@@ -45,3 +45,5 @@ sources → Marantz SR5014 Zone 2 pre-outs
 ```
 Wall → Furman Prestige Series P-1800 PF R → SR5014, Emotiva BasX A7+, sources
 ```
+
+<!-- Public mirror at https://github.com/duhnz20/home-audio -->
