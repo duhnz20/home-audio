@@ -20,7 +20,7 @@
                      │
         ┌────────────┼────────────┬─────────────┐
         ▼            ▼            ▼             ▼
-   KEF R3 (FL)  KEF R3 (FR)  KEF R2c     KEF Q150 × 2
+   KEF R3 (FL)  KEF R3 (FR)  KEF R2 Meta     KEF Q150 × 2
                               (Center)    (Surround L/R)
 ```
 

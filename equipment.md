@@ -7,7 +7,7 @@
 | AVR / Processor | Marantz SR5014 | Pre-outs feeding external amp; **no internal amps used by any speaker** |
 | External power amp | Emotiva BasX A7+ | 7-channel — drives ALL speakers in the house (5 main room + 2 Zone 2) |
 | Front L/R | KEF R3 | Bookshelf, 3-way coaxial Uni-Q + bass driver |
-| Center | KEF R2c | R-series Uni-Q center, timbre-matched to R3 (replaced Q250C) |
+| Center | KEF R2 Meta | R-series Meta center — 12th-gen Uni-Q + Metamaterial Absorption Technology (MAT); replaced Q250C. Voiced to match original R-series. |
 | Surrounds (L/R) | KEF Q150 | Pair |
 | Subwoofer | BIC America Formula F-12 | Powered, 12", connected via RCA from SR5014 sub out |
 | Room correction | Audyssey (built into SR5014) | Run from MultEQ mic that ships with the AVR |
@@ -26,7 +26,7 @@
 |---|---|---|
 | 1 | KEF R3 (Front L) | Main 1 |
 | 2 | KEF R3 (Front R) | Main 1 |
-| 3 | KEF R2c (Center) | Main 1 |
+| 3 | KEF R2 Meta (Center) | Main 1 |
 | 4 | KEF Q150 (Surround L) | Main 1 |
 | 5 | KEF Q150 (Surround R) | Main 1 |
 | 6 | KEF Q500 (Living L) | Zone 2 |
