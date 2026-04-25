@@ -2,13 +2,40 @@
 
 **Architectural rule for this system: NO speaker is driven by the Marantz SR5014's internal amps.** All amplification — main room AND Zone 2 — comes from the single Emotiva BasX A7+. The SR5014 functions purely as a pre/pro and switching hub.
 
+## HDMI Sources In
+
+```
+ Apple TV 4K (2nd Gen) ──► HDMI ──► SR5014 HDMI IN 5 ("Media Player")
+                          (Ultra Clarity CL3-rated flat HDMI 2.0 high-speed)
+```
+
+Currently the only HDMI source. SR5014 has 7 HDMI inputs total; remaining inputs available for future sources (disc player, console, etc.).
+
+## HDMI Outputs (video to TVs)
+
+The SR5014 has two HDMI outputs (Monitor 1 and Monitor 2) which can mirror or independently route video. Audio always stays on the receiver and feeds the speaker chain.
+
+```
+ SR5014 HDMI OUT Monitor 1 ──► LG 75UN7370PUE  (Zone 1 / Main Room TV, 75")
+                              (Ultra Clarity CL3-rated flat HDMI 2.0 high-speed)
+
+ SR5014 HDMI OUT Monitor 2 ──► LG NanO75UQA    (Zone 2 / Living Room TV)
+                              (Ultra Clarity CL3-rated flat HDMI 2.0 high-speed)
+```
+
+Both runs use the same Ultra Clarity CL3-rated flat HDMI 2.0 high-speed cable (in-wall safety rated).
+
 ## Zone 1 — Main Room (5.1)
 
 ```
                  ┌─────────────────────────────────────────────┐
- HDMI sources ──►│                                             │
- Streamers   ──►│         Marantz SR5014 AV Receiver          │
- Disc player ──►│  (decoding, room correction, switching)     │
+ Apple TV 4K ───►│ HDMI IN 5  ("Media Player")                 │
+                 │                                             │
+                 │         Marantz SR5014 AV Receiver          │
+                 │  (decoding, room correction, switching)     │
+                 │                                             │
+ HDMI OUT       ◄┤ Monitor 1 → LG 75UN7370PUE (Zone 1 TV)      │
+ HDMI OUT       ◄┤ Monitor 2 → LG NanO75UQA   (Zone 2 TV)      │
                  │                                             │
                  └────┬─────────────────────────┬─────────────┘
                       │ 5.1 pre-outs (RCA)      │ Sub/LFE pre-out

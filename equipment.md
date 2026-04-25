@@ -34,6 +34,21 @@
 
 All 7 amp channels in use. No surround-back / 7.1 capacity available without freeing one of these channels.
 
+## Video — Sources & Displays
+
+### Sources
+| Role | Make / Model | Connection |
+|---|---|---|
+| Streamer | Apple TV 4K (2nd Gen) | HDMI → SR5014 **HDMI IN 5** ("Media Player"). Ultra Clarity CL3-rated flat HDMI 2.0 high-speed cable. |
+
+### Displays
+| Zone | Make / Model | Connection |
+|---|---|---|
+| Zone 1 (Main Room) | LG 75UN7370PUE (75" 4K UHD) | SR5014 **HDMI OUT Monitor 1** → TV. Ultra Clarity CL3-rated flat HDMI 2.0 high-speed cable. |
+| Zone 2 (Living Room) | LG NanO75UQA (NanoCell 75 series) | SR5014 **HDMI OUT Monitor 2** → TV. Ultra Clarity CL3-rated flat HDMI 2.0 high-speed cable. |
+
+The SR5014's two HDMI outputs allow video to drive either or both TVs while audio stays on the receiver and feeds the speaker chain.
+
 ## Power Protection / Conditioning
 
 | Make / Model | Status | Role |
