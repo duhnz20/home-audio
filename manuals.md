@@ -20,7 +20,7 @@ Tracks every piece of equipment in the system and where to find its official man
 
 | Component | Doc type | Source URL | Local file |
 |---|---|---|---|
-| **Apple TV 4K (2nd Gen)** | Tech specs / setup | https://support.apple.com/en-us/111986 | _TBD_ |
+| **Apple TV 4K (2nd Gen)** | Tech specs / setup | https://support.apple.com/en-us/111986 | — |
 
 ## Speakers
 
@@ -52,7 +52,7 @@ Tracks every piece of equipment in the system and where to find its official man
 | **Rockville RHSB8** Adjustable Wall Mount Speaker Brackets | Assembly instructions | [PDF](https://rockvilleaudio.com/cdn/shop/files/RHSB8_AssemblyInstructions_v3_OL.pdf?v=577152499094494001) | `Rockville-RHSB8-manual.pdf` |
 | **Vogel's VLB 200** Universal Speaker Wall Bracket | Mounting instructions | [PDF](https://brandportal.vogels.com/m/3bbdac2106b8921a/original/8120200_VLB200_MountingInstructions_Document.pdf) | `Vogel-VLB-200-manual.pdf` |
 | **Vogel's VLB 200** Universal Speaker Wall Bracket | Spec sheet / leaflet | [PDF](https://brandportal.vogels.com/m/4788bf9781a49829/original/8120200_VLB200_Leaflet_Document_EN.pdf) | `Vogel-VLB-200-spec-sheet.pdf` |
-| Heavy-duty black metal floating shelf (R2 Meta center) | Install guide | (varies — vendor TBD) | _TBD_ |
+| Heavy-duty black metal floating shelf (R2 Meta center) | Install guide | (varies — vendor TBD) | — |
 | **IsoAcoustics Gaia III** isolation feet (Q500) | Install instructions | [PDF](https://isoacoustics.com/wp-content/uploads/2024/11/GAIA-II-III-instructions.EN-FR.pdf) | `isoacoustics-gaia-iii-install.pdf` |
 | **IsoAcoustics Gaia III** isolation feet (Q500) | Product manual | [PDF](https://jaguaraudio.com/wp-content/uploads/2021/07/IsoAcoustics-Product-Manual-2021.pdf) | `isoacoustics-gaia-iii-manual.pdf` |
 | **SVS SoundPath Subwoofer Isolation System** | Owner's manual | [PDF](https://soundapproach.com/pub/media/pdfs/SoundPath_SWIS_manual_10282013.pdf) | `svs-soundpath-subwoofer-isolation-manual.pdf` |
@@ -62,12 +62,11 @@ Tracks every piece of equipment in the system and where to find its official man
 
 | Component | Doc type | Source URL | Local file |
 |---|---|---|---|
-| **GEARit 14 AWG CCA Speaker Wire** | Spec sheet | https://gearit.com/products/gearit-14-awg-speaker-wire | _TBD_ |
-| **WGGE WG-3333** 24k Gold Banana Plugs (closed-screw) | Install guide | (Amazon listing) | _TBD_ |
-| **Monoprice Premier Series XLR-M to RCA-M** 6 ft 16 AWG | Spec sheet | https://www.monoprice.com/product?p_id=4769 | _TBD_ |
-| **Amazon Basics Subwoofer RCA Cable** | Spec sheet | (Amazon listing) | _TBD_ |
-| **Ultra Clarity CL3-rated flat HDMI 2.0 high-speed** | Spec sheet | (Amazon listing) | _TBD_ |
-| **CableCreation 10 ft 3-pin XLR M→F** balanced (mic cable for desktop chain) | Spec sheet | (Amazon listing) | _TBD_ |
+| **GEARit 14 AWG CCA Speaker Wire** | Spec sheet | https://gearit.com/products/gearit-14-awg-speaker-wire | — |
+| **WGGE WG-3333** 24k Gold Banana Plugs (closed-screw) | Install guide | (Amazon listing) | — |
+| **Monoprice Premier Series XLR-M to RCA-M** 6 ft 16 AWG | Spec sheet | https://www.monoprice.com/product?p_id=4769 | — |
+| **Amazon Basics Subwoofer RCA Cable** | Spec sheet | (Amazon listing) | — |
+| **Ultra Clarity CL3-rated flat HDMI 2.0 high-speed** | Spec sheet | (Amazon listing) | — |
 
 ---
 
@@ -85,3 +84,4 @@ Tracks every piece of equipment in the system and where to find its official man
 - **KEF Q500** docs use the Q100 PDFs from manualslib — KEF doesn't host Q500-specific files; the Q-series share the same manual/spec sheet across the line.
 - Desktop-rig components (Schiit Jotunheim 2, Adam Audio A7v, Sennheiser HD 660S) live in the [`desktop-setup`](https://git.duhnzo.lan:3000/justin/desktop-setup) repo's manuals index, not here.
 - Banana plugs / Amazon-Basics cables / silicone pads typically don't have manuals; entries are blank intentionally.
+- **Local file column legend:** filename = PDF on disk in `manuals/`; `—` = no local PDF (vendor doesn't publish one, or no useful manual exists for the part); _TBD_ = should have a PDF eventually but hasn't been collected yet.
