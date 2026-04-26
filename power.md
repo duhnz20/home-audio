@@ -42,7 +42,7 @@ Conversely, if line voltage drifts **below** 90 VAC, the PF R does not actively 
 | Marantz SR5014 | yes |
 | Emotiva BasX A7+ | yes (high-current bank — benefits from PF reservoir) |
 | Sources (streamers, disc, etc.) | yes |
-| BIC F-12 subwoofer | (verify — high-draw subs sometimes on separate circuit) |
+| BIC F-12 subwoofer | yes (verified 2026-04-26) — draws ~100 W AC nameplate, well within PF R 15 A capacity |
 | Living Room KEF Q500 | n/a (passive speakers) |
 
 ## Things to log here

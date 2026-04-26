@@ -2,6 +2,8 @@
 
 **Architectural rule for this system: NO speaker is driven by the Marantz SR5014's internal amps.** All amplification — main room AND Zone 2 — comes from the single Emotiva BasX A7+. The SR5014 functions purely as a pre/pro and switching hub.
 
+**TV audio return is ARC, not eARC** (verified 2026-04-26 — the LG 75UN7370PUE is a 2020 UN73-class TV which only supports ARC). Sufficient for compressed Dolby Digital / DTS from TV apps and the built-in tuner.
+
 ## Unified Topology
 
 Single view of every signal path in the system — sources at the top, pre/pro + amplification in the middle, speakers / displays / power as endpoints. Renders natively in Gitea and GitHub. Edge colors indicate signal type (see legend).
@@ -34,7 +36,7 @@ graph TB
     %% ============ DISPLAYS ============
     subgraph DISPLAYS["🖼  DISPLAYS"]
         direction LR
-        TV1["LG 75UN7370PUE<br/>Zone 1 / Main Room TV<br/><small>75in · 4K UHD · eARC</small>"]:::display
+        TV1["LG 75UN7370PUE<br/>Zone 1 / Main Room TV<br/><small>75in · 4K UHD · ARC</small>"]:::display
         TV2["LG NanO75UQA<br/>Zone 2 TV<br/><small>NanoCell · video-only out</small>"]:::display
     end
 
@@ -69,7 +71,7 @@ graph TB
 
     %% 1-2: HDMI to Zone 1 TV (video out + eARC return on same cable)
     SR5014   -- "HDMI 2.0 → Monitor 1" --> TV1
-    TV1      -- "eARC audio return"    --> SR5014
+    TV1      -- "ARC audio return"     --> SR5014
 
     %% 3: HDMI to Zone 2 TV (video out only)
     SR5014   -- "HDMI 2.0 → Monitor 2" --> TV2
@@ -122,7 +124,7 @@ graph TB
 | Color | Signal type |
 |---|---|
 | 🟢 Green | HDMI video (source → SR5014, SR5014 → TVs) |
-| 🩵 Cyan | eARC audio return (Zone 1 TV apps/tuner audio back into SR5014) |
+| 🩵 Cyan | ARC audio return (Zone 1 TV apps/tuner audio back into SR5014) |
 | 🟠 Orange | Balanced/RCA analog interconnect (5.1 pre-outs, Zone 2 pre-outs, sub LFE) |
 | 🟡 Yellow | Speaker-level wire (Emotiva amp → passive KEF speakers) |
 | ⚪ Grey dashed | AC power (wall → Furman → AV gear) |
@@ -134,9 +136,9 @@ graph TB
 | **All speakers driven by Emotiva** | Every yellow line originates at the Emotiva BasX A7+. The SR5014 has zero speaker-level outputs in use — it's pre/pro only. |
 | **One amp drives both zones** | Channels 1-5 of the Emotiva feed Zone 1 (5.1); channels 6-7 feed Zone 2 (stereo). All 7 channels in use — no headroom for surround-back / Atmos heights without a second amp. |
 | **Sub bypasses the Emotiva** | The BIC F-12 is self-amplified — orange line goes SR5014 sub/LFE pre-out → BIC's own RCA input directly. |
-| **eARC is one physical cable doing two jobs** | The HDMI cable to TV1 (Zone 1) carries video down (green) and TV-app/tuner audio back up (cyan). TV2 (Zone 2) is video-only. |
+| **ARC is one physical cable doing two jobs** | The HDMI cable to TV1 (Zone 1) carries video down (green) and TV-app/tuner audio back up (cyan, standard ARC — UN7370 doesn't support eARC). TV2 (Zone 2) is video-only. |
 | **Audyssey lives upstream of the amp** | Room correction is applied inside the SR5014 *before* the analog pre-outs hit the Emotiva — the amp sees a corrected signal. |
-| **Furman feeds the rack, not the speakers** | All AV electronics on the Furman; passive speakers and the BIC sub draw power independently (sub typically wall or its own outlet — verify on yours). |
+| **Furman feeds the rack and the sub** | All AV electronics + the BIC F-12 sub on the Furman (verified 2026-04-26). Passive speakers draw no AC. |
 
 ## HDMI Sources In
 
@@ -153,14 +155,15 @@ The SR5014 has two HDMI outputs (Monitor 1 and Monitor 2) which can mirror or in
 
 ```
  SR5014 HDMI OUT Monitor 1 ◄──► LG 75UN7370PUE  (Zone 1 / Main Room TV, 75")
-   [eARC enabled]                (Ultra Clarity CL3-rated flat HDMI 2.0 high-speed)
-   Audio return: TV apps / built-in tuner audio → SR5014 → speaker chain
+   [ARC enabled — UN7370 doesn't support eARC]
+                                 (Ultra Clarity CL3-rated flat HDMI 2.0 high-speed, HEC-rated)
+   Audio return: TV apps / built-in tuner audio (compressed DD/DTS) → SR5014 → speaker chain
 
  SR5014 HDMI OUT Monitor 2 ───► LG NanO75UQA    (Zone 2 / Living Room TV)
                                 (Ultra Clarity CL3-rated flat HDMI 2.0 high-speed)
 ```
 
-Both runs use the same Ultra Clarity CL3-rated flat HDMI 2.0 high-speed cable (in-wall safety rated). **Monitor 1 is configured for eARC** — audio from the LG 75UN7370PUE's smart apps and built-in tuner returns to the SR5014 over the same HDMI cable, so Zone 1 TV audio plays through the full Emotiva → KEF chain. Monitor 2 is video-only out (no return path needed for the Zone 2 TV).
+Both runs use the same Ultra Clarity CL3-rated flat HDMI 2.0 high-speed cable (in-wall safety rated, HEC-rated for ARC over Ethernet). **Monitor 1 is configured for ARC** (the UN7370 is a 2020 UN73-class TV — ARC only, not eARC) — audio from the LG 75UN7370PUE's smart apps and built-in tuner returns to the SR5014 over the same HDMI cable as compressed Dolby Digital / DTS, so Zone 1 TV audio plays through the full Emotiva → KEF chain. Monitor 2 is video-only out (no return path needed for the Zone 2 TV).
 
 ## Zone 1 — Main Room (5.1)
 
@@ -232,4 +235,4 @@ Both runs use the same Ultra Clarity CL3-rated flat HDMI 2.0 high-speed cable (i
 History: M-8x2 → P-1800 AR (briefly) → P-1800 PF R (current).
 ```
 
-The BIC F-12 sub typically plugs into wall (or its own surge strip) due to current draw — confirm whether it's on the Furman chain or separate.
+The BIC F-12 sub is on the Furman conditioned chain (verified 2026-04-26). The F-12 draws ~100 W at AC nameplate, which is well within the PF R's 15 A capacity.

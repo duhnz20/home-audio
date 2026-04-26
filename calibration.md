@@ -17,7 +17,7 @@ The SR5014 manual (p 181) describes two paths depending on whether the sub has a
 | Sub feature | Setting |
 |---|---|
 | If sub has a **direct mode** | Set direct mode ON; disables internal volume + crossover so AVR drives entirely. |
-| If sub has **no direct mode** (BIC F-12) | Volume knob to 12 o'clock position; Crossover knob to maximum; **Receiver Type switch to "Digital Receiver"** (this is the F-12's equivalent of direct mode — bypasses internal crossover and lets SR5014 do bass management); Phase 0°; Auto-On to ON. |
+| If sub has **no direct mode** (BIC F-12) | Volume knob to 12 o'clock position; Crossover knob to maximum; **Receiver Type switch to "Digital Receiver"** (this is the F-12's equivalent of direct mode — bypasses internal crossover and lets SR5014 do bass management; **verified set to Digital 2026-04-26**); Phase 0°; Auto-On to ON. |
 
 ### Mic placement
 

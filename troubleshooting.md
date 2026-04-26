@@ -60,8 +60,8 @@ For TV-app audio (Netflix, YouTube, broadcast tuner, etc.) to flow back to the s
 1. SR5014 → Settings → Video → HDMI Setup → **HDMI Control = ON** AND **ARC = ON** (manual p 165). For an eARC-capable TV, eARC overrides these settings, but keep them on for compatibility.
 2. LG TV → Settings → Sound → Sound Out → **HDMI ARC** (or "Audio Out (Optical/HDMI ARC)" depending on firmware).
 3. Verify the HDMI cable is connected to the SR5014's **MONITOR 1** output (only Monitor 1 carries the return path).
-4. The cable must be a "High Speed HDMI Cable with Ethernet" (HEC-rated, manual p 54). Most modern HDMI 2.0 cables are; if the Ultra Clarity flat cable predates 2017, verify HEC support before chasing software causes.
-5. **Verify what audio formats actually work back from this TV.** The UN7370 is a 2020 entry-level LG, publicly documented as ARC-only (eARC arrived on LG NanoCell-80 and OLED in 2020+). Standard ARC carries compressed Dolby Digital / DTS — fine for 99% of TV-app content. eARC is needed for Atmos / DTS:X / lossless from streaming apps; if those don't pass through, that's by design, not a fault. To test: play a known Dolby Atmos source on the TV's Netflix/Disney+ app and watch the SR5014 front-panel display — if it shows "Dolby Atmos", eARC is working; if it falls back to "Dolby Digital", you have ARC only.
+4. The cable must be a "High Speed HDMI Cable with Ethernet" (HEC-rated, manual p 54). The Ultra Clarity flat cable on this run is HEC-rated (confirmed 2026-04-26).
+5. **Audio format expectation:** the UN7370 is ARC-only (verified 2026-04-26 — UN73 is 2020 entry-level LG, eARC arrived on NanoCell-80 and OLED that year). Standard ARC carries compressed Dolby Digital / DTS, which is what every TV app and the built-in tuner deliver. Atmos / DTS:X / lossless from streaming apps will not pass through — by design, not a fault. If you ever want this, you'd need to either route the streamer directly to the SR5014 (Apple TV is already wired this way for Atmos) or upgrade the TV.
 
 ## SR5014 won't power on
 

@@ -44,12 +44,12 @@ All 7 amp channels in use. No surround-back / 7.1 capacity available without fre
 ### Displays
 | Zone | Make / Model | Connection |
 |---|---|---|
-| Zone 1 (Main Room) | LG 75UN7370PUE (75" 4K UHD) | SR5014 **HDMI OUT Monitor 1** ↔ TV. Ultra Clarity CL3-rated flat HDMI 2.0 high-speed cable. ARC/eARC return brings TV-app and built-in-tuner audio back into the SR5014 → Emotiva → KEF chain. |
+| Zone 1 (Main Room) | LG 75UN7370PUE (75" 4K UHD) | SR5014 **HDMI OUT Monitor 1** ↔ TV. Ultra Clarity CL3-rated flat HDMI 2.0 high-speed cable (HEC-rated, confirmed). **ARC** (not eARC — verified 2026-04-26) brings TV-app and built-in-tuner audio back into the SR5014 → Emotiva → KEF chain. |
 | Zone 2 (Living Room) | LG NanO75UQA (NanoCell 75 series) | SR5014 **HDMI OUT Monitor 2** → TV. Ultra Clarity CL3-rated flat HDMI 2.0 high-speed cable. Video-only (no return path). |
 
 The SR5014's two HDMI outputs allow video to drive either or both TVs while audio stays on the receiver and feeds the speaker chain. Only Monitor 1 carries an audio-return path; Monitor 2 is one-way video out.
 
-**ARC vs eARC capability check (TBD — verify on actual unit):** the LG 75UN7370PUE is a 2020 entry-level 4K LCD; LG's published spec for the UN73 line is HDMI 2.0 with **ARC only** (eARC arrived on LG NanoCell 80-series and OLEDs in 2020+). Standard ARC is sufficient for compressed Dolby Digital / DTS bitstreams from TV apps and the built-in tuner — these are by far the dominant audio formats coming back from a TV anyway. If you need uncompressed multichannel PCM or lossless Dolby TrueHD/DTS-HD MA from TV apps (rare), eARC is required and a different TV would be needed. Set "HDMI Control" or "ARC" to On in the SR5014 menu (Marantz manual p 165). For ARC/eARC, the cable must be a "High Speed HDMI Cable with Ethernet" (HEC) — verify the Ultra Clarity flat cable is HEC-rated; most modern HDMI 2.0 cables are.
+**Audio return capability — verified 2026-04-26: ARC, not eARC.** The LG 75UN7370PUE is a 2020 entry-level 4K LCD; the UN73 line ships with HDMI 2.0 + **ARC only** (eARC arrived on LG NanoCell-80 and OLED in 2020). Standard ARC is sufficient for compressed Dolby Digital / DTS bitstreams from TV apps and the built-in tuner — these are by far the dominant audio formats coming back from a TV anyway. Uncompressed multichannel PCM and lossless Dolby TrueHD / DTS-HD MA from TV apps would require eARC (and a different TV); not currently a need. SR5014 menu setting required: Settings → Video → HDMI Setup → **HDMI Control = On** AND **ARC = On** (Marantz manual p 165). The Ultra Clarity flat HDMI cable on this run is HEC-rated (High Speed HDMI Cable with Ethernet, confirmed).
 
 ## Power Protection / Conditioning
 
