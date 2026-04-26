@@ -12,3 +12,6 @@ manuals/*.epub
 # Allow the README and any non-binary index files
 !manuals/README.md
 !manuals/*.md
+
+# Maintenance log kept locally only — too granular for public mirror
+maintenance-log.md
