@@ -20,7 +20,8 @@ Tracks every piece of equipment in the system and where to find its official man
 
 | Component | Doc type | Source URL | Local file |
 |---|---|---|---|
-| **Apple TV 4K (2nd Gen)** | Tech specs / setup | https://support.apple.com/en-us/111986 | — |
+| **Apple TV 4K (2nd Gen)** | User guide (tvOS 26) | https://support.apple.com/guide/tv/welcome/26/tvos/26 | — |
+| **Apple TV 4K (2nd Gen)** | Tech specs | https://support.apple.com/en-us/111922 | — |
 
 ## Speakers
 
@@ -62,11 +63,11 @@ Tracks every piece of equipment in the system and where to find its official man
 
 | Component | Doc type | Source URL | Local file |
 |---|---|---|---|
-| **GEARit 14 AWG CCA Speaker Wire** | Spec sheet | https://gearit.com/products/gearit-14-awg-speaker-wire | — |
-| **WGGE WG-3333** 24k Gold Banana Plugs (closed-screw) | Install guide | (Amazon listing) | — |
-| **Monoprice Premier Series XLR-M to RCA-M** 6 ft 16 AWG | Spec sheet | https://www.monoprice.com/product?p_id=4769 | — |
-| **Amazon Basics Subwoofer RCA Cable** | Spec sheet | (Amazon listing) | — |
-| **Ultra Clarity CL3-rated flat HDMI 2.0 high-speed** | Spec sheet | (Amazon listing) | — |
+| **GEARit 14 AWG CCA Speaker Wire** | Product page / specs | https://www.gearit.com/products/gearit-14-gauge-speaker-wire-cca-copper-clad-aluminum-home-theatre-car-speakers-more-14-awg-pro-series?variant=30337281720429 | — |
+| **WGGE WG-3333** 24k Gold Banana Plugs (closed-screw) | Product page | https://www.wgelectronics.com/product/wgge-wg-3333-24k-gold-plated-speaker-banana-plugs-closed-screw-type/ | — |
+| **Monoprice Premier Series XLR-M to RCA-M** 6 ft 16 AWG | Product page / specs | https://www.monoprice.com/product?p_id=4777 | — |
+| **Amazon Basics Subwoofer RCA Cable** | Product page | https://www.amazon.com/Amazon-Basics-Speaker-Subwoofer-Gold-Plated/dp/B01D5H8IIU | — |
+| **Ultra Clarity CL3-rated flat HDMI 2.0 high-speed** | Product page | https://www.ultraclaritycables.com/products/hdmi-flat-cables | — |
 
 ---
 
