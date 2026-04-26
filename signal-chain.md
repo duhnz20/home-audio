@@ -137,7 +137,7 @@ graph TB
 | **One amp drives both zones** | Channels 1-5 of the Emotiva feed Zone 1 (5.1); channels 6-7 feed Zone 2 (stereo). All 7 channels in use — no headroom for surround-back / Atmos heights without a second amp. |
 | **Sub bypasses the Emotiva** | The BIC F-12 is self-amplified — orange line goes SR5014 sub/LFE pre-out → BIC's own RCA input directly. |
 | **ARC is one physical cable doing two jobs** | The HDMI cable to TV1 (Zone 1) carries video down (green) and TV-app/tuner audio back up (cyan, standard ARC — UN7370 doesn't support eARC). TV2 (Zone 2) is video-only. |
-| **Audyssey lives upstream of the amp** | Room correction is applied inside the SR5014 *before* the analog pre-outs hit the Emotiva — the amp sees a corrected signal. |
+| **Audyssey lives upstream of the amp** | Room correction is applied inside the SR5014 *before* the analog pre-outs hit the Emotiva — the amp sees a corrected signal. Tuning workflow (in-AVR run + MultEQ Editor app refinements) is in [`calibration.md`](calibration.md#multeq-editor-app-workflow-paid-20). |
 | **Furman feeds the rack and the sub** | All AV electronics + the BIC F-12 sub on the Furman (verified 2026-04-26). Passive speakers draw no AC. |
 
 ## HDMI Sources In
