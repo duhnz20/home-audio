@@ -95,7 +95,7 @@ The same wire + plug combination is used for **all 7 amp-driven speakers** (KEF 
 | Speaker | Mounting | Notes |
 |---|---|---|
 | KEF R3 (Front L/R) | **Rockville RHSB8 Adjustable Wall Mount Speaker Brackets** (pair) | Wall-mounted in main room; adjustable angle for toe-in |
-| KEF R2 Meta (Center) | **3 × 12 in heavy-duty black metal floating shelf brackets** under the Zone 1 LG 75UN7370PUE | Centered below the TV, three brackets distribute the speaker's weight |
+| KEF R2 Meta (Center) | **3 × heavy-duty black metal floating shelf** under the Zone 1 LG 75UN7370PUE | Centered below the TV, three shelves distribute the speaker's weight |
 | KEF Q150 (Surrounds) | **Vogel's VLB 200 Universal Speaker Wall Bracket** | Wall-mounted in main room |
 | KEF Q500 (Zone 2 L/R) | **IsoAcoustics Gaia III** isolation feet | Decouples cabinet from floor — reduces structure-borne resonance, tightens bass definition and stereo image |
 | BIC F-12 (Sub) | Sits on floor with **SVS SoundPath Subwoofer Isolation System** installed on the bottom | Decouples sub from floor — important in a high-rise / shared-wall context to reduce structure-borne bass transmission |
