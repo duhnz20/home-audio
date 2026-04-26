@@ -49,13 +49,13 @@ Tracks every piece of equipment in the system and where to find its official man
 
 | Component | Doc type | Source URL | Local file |
 |---|---|---|---|
-| **Rockville RHSB8** Adjustable Wall Mount Speaker Brackets | Install guide | https://rockvilleaudio.com/RHSB8.html | _TBD_ |
-| **Vogel's VLB 200** Universal Speaker Wall Bracket | Install guide | https://www.vogels.com/p/vlb-200-speaker-wall-mount-tilt-and-turn-set-7331022 | _TBD_ |
+| **Rockville RHSB8** Adjustable Wall Mount Speaker Brackets | Assembly instructions | [PDF](https://rockvilleaudio.com/cdn/shop/files/RHSB8_AssemblyInstructions_v3_OL.pdf?v=577152499094494001) | `Rockville-RHSB8-manual.pdf` |
+| **Vogel's VLB 200** Universal Speaker Wall Bracket | Mounting instructions | [PDF](https://brandportal.vogels.com/m/3bbdac2106b8921a/original/8120200_VLB200_MountingInstructions_Document.pdf) | `Vogel-VLB-200-manual.pdf` |
+| **Vogel's VLB 200** Universal Speaker Wall Bracket | Spec sheet / leaflet | [PDF](https://brandportal.vogels.com/m/4788bf9781a49829/original/8120200_VLB200_Leaflet_Document_EN.pdf) | `Vogel-VLB-200-spec-sheet.pdf` |
 | Heavy-duty black metal floating shelf (R2 Meta center) | Install guide | (varies — vendor TBD) | _TBD_ |
 | **IsoAcoustics Gaia III** isolation feet (Q500) | Install instructions | [PDF](https://isoacoustics.com/wp-content/uploads/2024/11/GAIA-II-III-instructions.EN-FR.pdf) | `isoacoustics-gaia-iii-install.pdf` |
 | **IsoAcoustics Gaia III** isolation feet (Q500) | Product manual | [PDF](https://jaguaraudio.com/wp-content/uploads/2021/07/IsoAcoustics-Product-Manual-2021.pdf) | `isoacoustics-gaia-iii-manual.pdf` |
-| **IsoAcoustics Iso-155** desk speaker stands | Install guide | https://isoacoustics.com/products/iso-stands/iso-puck-iso-stands/iso-155/ | _TBD_ |
-| **SVS SoundPath Subwoofer Isolation System** | Install guide | https://www.svsound.com/products/soundpath-subwoofer-isolation-system | _TBD_ |
+| **SVS SoundPath Subwoofer Isolation System** | Owner's manual | [PDF](https://soundapproach.com/pub/media/pdfs/SoundPath_SWIS_manual_10282013.pdf) | `svs-soundpath-subwoofer-isolation-manual.pdf` |
 | **Non-Slip Self-Adhesive Silicone Cuttable Furniture Pads** | (no manual) | — | — |
 
 ## Cabling
