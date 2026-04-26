@@ -1,0 +1,14 @@
+# PDFs and other binary manuals are stored locally only.
+# The home-audio repo is mirrored to PUBLIC github.com/duhnz20/home-audio,
+# and redistributing manufacturer PDFs there is a copyright concern + bloats the repo.
+# The manuals/ index (manuals.md + manuals/README.md) tracks WHICH manual goes where
+# and links to the manufacturer's official PDF source.
+manuals/*.pdf
+manuals/*.PDF
+manuals/*.zip
+manuals/*.djvu
+manuals/*.epub
+
+# Allow the README and any non-binary index files
+!manuals/README.md
+!manuals/*.md

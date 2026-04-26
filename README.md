@@ -19,6 +19,7 @@ Documentation for the two-zone home audio system.
 | [calibration.md](calibration.md) | Audyssey runs, settings, room notes |
 | [troubleshooting.md](troubleshooting.md) | Known issues and recovery procedures |
 | [maintenance-log.md](maintenance-log.md) | Dated log of changes, swaps, recalibrations |
+| [manuals.md](manuals.md) | Index of all equipment manuals — links to manufacturer source PDFs; local PDFs in [`manuals/`](manuals/) (gitignored) |
 
 ## Quick reference
 
