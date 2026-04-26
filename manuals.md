@@ -13,7 +13,6 @@ Tracks every piece of equipment in the system and where to find its official man
 | **Marantz SR5014** AV receiver | Owner's manual | [PDF](https://www.marantz.com/on/demandware.static/-/Library-Sites-marantz_northamerica_shared/default/dw0ef7c077/archive-downloads/sr5014_na_en.pdf) | `marantz-sr5014-owners-manual.pdf` |
 | **Marantz SR5014** | Quick-start guide | [PDF](https://rn.dmglobal.com/usmodel/SR5014N_ENG_QuickStartGuide_UG_v00_20200218132305993.pdf) | `marantz-sr5014-quick-start.pdf` |
 | **Emotiva BasX A7+** 7-channel amp | Owner's manual | [PDF](https://cdn.shopify.com/s/files/1/2572/6926/files/BasX_Plus_Series_Power_Amplifiers_User_Manual_v12_1_1.pdf?v=1751473778) | `emotiva-basx-a7plus-manual.pdf` |
-| **Schiit Jotunheim 2** + True Multibit DAC module | Owner's manual | [PDF](https://www.schiit.com/public/upload/PDF/jotunheim%202%20manual.pdf) | `shiit-jotunheim-2-manual.pdf` |
 | **Furman Prestige Series P-1800 PF R** | Owner's manual | [PDF](https://cdn.shopify.com/s/files/1/0884/1006/3168/files/pdf_P-1800-PFR_manual.pdf?v=1725303400) | `furman-p1800-pfr-owners-manual.pdf` |
 | **Furman Prestige Series P-1800 PF R** | Datasheet | [PDF](https://cdn.shopify.com/s/files/1/0884/1006/3168/files/pdf_P-1800-PFR_datasheet.pdf?v=1725303400) | `furman-p1800-pfr-datasheet.pdf` |
 
@@ -38,12 +37,6 @@ Tracks every piece of equipment in the system and where to find its official man
 | **KEF Q500** (Zone 2) | Owner's manual | [PDF (manualslib, Q100 — same Q-series doc)](https://www.manualslib.com/download/1087554/Kef-Q100.html) | `kef-q500-manual.pdf` |
 | **KEF Q500** (Zone 2) | Spec sheet | [PDF (manualslib, Q100 — same Q-series doc)](https://www.manualslib.com/download/286175/Kef-Q100.html) | `kef-q500-spec-sheet.pdf` |
 | **BIC America Formula F-12** subwoofer | Owner's manual | [PDF](https://dc93bae5-a957-47b1-9e72-d51ced884edd.filesusr.com/ugd/24e29a_e339c3e6936044c886659ce4fa388e37.pdf) | `bic-formula-f12-manual.pdf` |
-| **Sennheiser HD 660S** | Owner's manual | [PDF](https://pdf.crutchfieldonline.com/ImageBank/v20180201094400/Manuals/143/143HD660S.PDF) | `Sennheiser-HD-660S-manual.pdf` |
-| **Adam Audio A7v** active monitor | Owner's manual | [PDF](https://www.adam-audio.com/content/uploads/2022/05/adam-audio-a-series-user-manual-english.pdf) | `Adam-Audio-A7v-manual.pdf` |
-| **Adam Audio A7v** | Quick-start guide | [PDF](https://www.adam-audio.com/content/uploads/2022/04/adam-audio-a-series-quick-start-guide-english-german-spanish-french-simplified-chinese-japanese.pdf) | `Adam-Audio-A7v-quickstart.pdf` |
-| **Adam Audio A7v** | Hardware mounting matrix | [PDF](https://www.adam-audio.com/content/uploads/2024/12/adam-audio-a-series-mounting-plate-hardware-mounting-matrix.pdf) | `Adam-Audio-A7v-Hardware-mounting-matrix.pdf` |
-| **Adam Audio A7v** | Signal-processing block diagram | [PDF](https://www.adam-audio.com/content/uploads/2022/03/adam-audio-a-series-signal-processing-block-diagram.pdf) | `Adam-Audio-A7v-BlockDiagram.pdf` |
-| **Adam Audio A7v** | Measurement report (v4) | [PDF](https://www.adam-audio.com/content/uploads/2024/04/adam-audio-a-series-a7v-studio-monitor-measurement-report-v4-english.pdf) | `Adam-Audio-A7v-measurment-report.pdf` |
 
 ## Displays
 
@@ -90,5 +83,5 @@ Tracks every piece of equipment in the system and where to find its official man
 - URLs link directly to the manufacturer-hosted PDF where available; LG manuals only ship via the LG support landing page (no stable direct PDF).
 - For discontinued products (Marantz SR5014, KEF Q150, KEF Q500, LG 75UN7370PUE), keep the PDF locally even if the support page eventually goes dark.
 - **KEF Q500** docs use the Q100 PDFs from manualslib — KEF doesn't host Q500-specific files; the Q-series share the same manual/spec sheet across the line.
-- Filename `shiit-jotunheim-2-manual.pdf` preserves the as-uploaded spelling (manufacturer is **Schiit Audio**).
+- Desktop-rig components (Schiit Jotunheim 2, Adam Audio A7v, Sennheiser HD 660S) live in the [`desktop-setup`](https://git.duhnzo.lan:3000/justin/desktop-setup) repo's manuals index, not here.
 - Banana plugs / Amazon-Basics cables / silicone pads typically don't have manuals; entries are blank intentionally.
