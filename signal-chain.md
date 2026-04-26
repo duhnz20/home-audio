@@ -27,7 +27,7 @@ graph TB
     %% ============ PRE/PRO + AMP ============
     subgraph CORE["🎛  PRE/PRO + AMPLIFICATION"]
         direction LR
-        SR5014["Marantz SR5014<br/><small>pre/pro only · Audyssey MultEQ XT32</small>"]:::preamp
+        SR5014["Marantz SR5014<br/><small>pre/pro only · Audyssey MultEQ XT</small>"]:::preamp
         EMOTIVA["Emotiva BasX A7+<br/><small>7-channel power amp · drives ALL speakers</small>"]:::amp
     end
 

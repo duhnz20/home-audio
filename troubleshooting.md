@@ -6,9 +6,13 @@ Quick reference for common failure modes. Add new entries when you encounter and
 
 Likely culprits in order:
 1. SR5014 in wrong input or zone-routed away
-2. Emotiva BasX A7+ powered off or in standby (front panel LED check)
-3. Pre-out RCA cable loose at SR5014 or amp end
-4. SR5014 muted or volume at -∞
+2. Emotiva BasX A7+ powered off or in standby — **front-panel LED check:**
+   - Standby LED **amber** = standby (not the cause unless trigger missing)
+   - Standby LED **off** AND Status LEDs **off** = AC power off (rear panel switch off)
+   - Standby LEDs **flashing amber** AND Status LEDs **flashing red** = Protect mode / fault — see "A7+ in Protect mode" below
+3. **A7+ Auto-On is NOT supported on the A7+** (only A2+/A3+/A2L+ have it). The A7+ wakes only via a 12 VDC trigger (5–12 V) or the front-panel Standby button. If the trigger cable from the SR5014 is loose or the SR5014 itself is in standby, the A7+ stays in standby. Verify SR5014 Trigger Out is configured (Settings → General → Trigger Out) and the cable is seated.
+4. Pre-out RCA cable loose at SR5014 or XLR end at amp
+5. SR5014 muted or volume at -∞
 
 ## Some channels missing (e.g., center silent, surrounds dropped)
 
@@ -19,11 +23,13 @@ Likely culprits in order:
 
 ## Subwoofer silent
 
-1. Sub power LED on?
-2. RCA cable from SR5014 sub-out → BIC F-12 RCA in seated?
-3. SR5014 menu → Audyssey → speaker config → Subwoofer = "Yes"
-4. Source content actually has LFE? (Stereo music routed to "Stereo" mode won't send to sub unless small-speaker bass redirect is on)
-5. BIC F-12 crossover knob position (if set too low, may be crossing under what SR5014 sends)
+1. Sub power LED on? (Green = on, red = standby)
+2. RCA cable from SR5014 sub-out → BIC F-12 **SUB IN** RCA jack seated? (Not the high-level inputs)
+3. SR5014 menu → Settings → Audio → Manual Setup → Speaker Config → Subwoofer = "Yes"
+4. Source content actually has LFE? (Stereo music in "Stereo" mode won't send to sub unless front speakers are set to "Small" with bass redirect)
+5. **BIC F-12 Receiver Type switch on "Digital Receiver" position** (rear panel, beside SUB IN RCA). In "Pro Logic Receiver" mode the F-12 applies its own crossover knob *on top of* the SR5014 crossover, double-filtering the signal. For Audyssey-driven systems, **always** keep the switch on Digital Receiver — this disables the F-12's internal crossover and lets the AVR handle bass management.
+6. BIC F-12 volume knob too low (audible distortion if too high — start at 12 o'clock and let Audyssey trim).
+7. F-12 has gone into auto-standby — 15-20 min after no signal. Sending any LFE-containing content wakes it. If it's not waking, set the rear-panel **Power/Auto switch to ON** (vs AUTO) to bypass auto-standby for the run.
 
 ## Hum or buzz in speakers
 
@@ -37,15 +43,25 @@ Likely culprits in order:
 1. SR5014 menu → Zone 2 ON?
 2. Source assigned to Zone 2 (separate from Zone 1 source)
 3. Zone 2 volume not at -∞
-4. SR5014 Zone 2 pre-out RCA cable seated at SR5014 and at Emotiva ch 6/7 inputs (Q500s are driven by the Emotiva, NOT the SR5014's internal Zone 2 amps)
-5. Emotiva BasX A7+ powered on (the same amp that drives main room — if main is silent too, this is the cause)
-6. SR5014 Amp Assign menu still set for "5ch + Zone 2 pre-out" topology (a factory reset would revert to 7.1 internal amps and break this path)
+4. SR5014 Zone 2 pre-out RCA cable seated at SR5014 (the small RCA pair labeled ZONE2) and at Emotiva ch 6/7 inputs. Q500s are driven by the Emotiva, NOT the SR5014's internal Zone 2 amps.
+5. Emotiva BasX A7+ powered on (same amp that drives main room — if main is silent too, this is the cause).
+6. **Amp Assign clarification (correcting earlier note):** the SR5014's **Zone 2 pre-out is independent of the Amp Assign setting** — it is always live regardless of what Amp Assign is set to (manual p 40 footnote: "5.1-channel + 2-channel (Pre-out) ZONE2 — can be set in all Amp Assign modes"). A factory reset reverts Amp Assign to **"ZONE2 (Speaker out)"** as the default, NOT 7.1 internal amps. Either way, Zone 2 pre-out → Emotiva ch 6/7 → Q500 keeps working. If you want the SR5014's surplus internal amps to do anything else (Bi-Amp, Front B, Atmos heights, Surround Back), check Settings → General → Manual Setup → Amp Assign — but it doesn't affect Zone 2 audio.
 
 ## Audyssey calibration won't complete
 
 1. Mic must be at SETUP MIC port, not regular input
 2. Check ambient noise — calibration tones won't run if room is too noisy
 3. Sub volume set too low or too high — Audyssey wants ~75 dB at the mic position; adjust sub gain if it complains
+
+## TV (LG 75UN7370PUE) audio not coming through SR5014
+
+For TV-app audio (Netflix, YouTube, broadcast tuner, etc.) to flow back to the speaker chain:
+
+1. SR5014 → Settings → Video → HDMI Setup → **HDMI Control = ON** AND **ARC = ON** (manual p 165). For an eARC-capable TV, eARC overrides these settings, but keep them on for compatibility.
+2. LG TV → Settings → Sound → Sound Out → **HDMI ARC** (or "Audio Out (Optical/HDMI ARC)" depending on firmware).
+3. Verify the HDMI cable is connected to the SR5014's **MONITOR 1** output (only Monitor 1 carries the return path).
+4. The cable must be a "High Speed HDMI Cable with Ethernet" (HEC-rated, manual p 54). Most modern HDMI 2.0 cables are; if the Ultra Clarity flat cable predates 2017, verify HEC support before chasing software causes.
+5. **Verify what audio formats actually work back from this TV.** The UN7370 is a 2020 entry-level LG, publicly documented as ARC-only (eARC arrived on LG NanoCell-80 and OLED in 2020+). Standard ARC carries compressed Dolby Digital / DTS — fine for 99% of TV-app content. eARC is needed for Atmos / DTS:X / lossless from streaming apps; if those don't pass through, that's by design, not a fault. To test: play a known Dolby Atmos source on the TV's Netflix/Disney+ app and watch the SR5014 front-panel display — if it shows "Dolby Atmos", eARC is working; if it falls back to "Dolby Digital", you have ARC only.
 
 ## SR5014 won't power on
 
@@ -55,6 +71,15 @@ Likely culprits in order:
 
 ## P-1800 PF R shows abnormal voltage or shuts down
 
-- **<90 V or >140 V**: EVS has tripped — line is out of safe operating range. Wait for voltage to normalize or investigate utility-side issue.
-- **Display reads <108 V or >132 V (but >90 / <140)**: line is unstable but PF R is passing it through (no AVR). If chronic, contact ComEd, or consider AVR-equipped Furman.
-- **Constantly clamping / unusual noise**: possible internal protection degradation; consider service. SMP is non-sacrificial so this is rare.
+- **>140 V**: EVS has tripped (over-voltage only — see `power.md`). Front-panel "Extreme Voltage" indicator lights, the relay opens, and all connected gear loses AC. Wait for line voltage to normalize; the unit auto-resets per the datasheet. If recurring, the cause is utility-side — call ComEd before assuming gear failure.
+- **<90 V (but no shutdown)**: PF R has no undervoltage cutoff — it just passes whatever voltage is at the wall to the load. Marantz SR5014 and Emotiva A7+ both have their own internal under-voltage protection circuits; one of them will go into protect mode before the other lets damage happen.
+- **Display reads <108 V or >132 V (but inside 90-139)**: line is in spec but trending unstable. PF R is passing it through unmodified (no AVR / autoformer). If chronic, contact ComEd, or consider an AVR-equipped Furman (P-1800 AR).
+- **Constantly clamping / unusual noise from PF R itself**: possible internal protection degradation. SMP is non-sacrificial so this is rare — service required.
+
+## A7+ in Protect mode (Status LEDs flashing red, Standby LED flashing amber)
+
+Per Emotiva manual p 21:
+
+- Switch the rear-panel AC Power switch OFF then ON to clear the fault.
+- If the fault returns: look for a shorted speaker cable, damaged speaker, or a bad source connection (DC on the input from a dying source can trigger protect — try disconnecting input cables one at a time to isolate).
+- The A7+ also protects against excessive operating temperature — if the rack is enclosed and the A7+ is running hot for hours, it may shut down for thermal reasons. Verify ventilation above and behind the unit; the Class A/B output stage generates real heat at sustained high power.

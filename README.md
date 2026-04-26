@@ -13,10 +13,11 @@ Documentation for the two-zone home audio system.
 
 | Doc | Purpose |
 |---|---|
-| [equipment.md](equipment.md) | Component inventory with model numbers and roles |
+| [equipment.md](equipment.md) | Component inventory with model numbers, roles, mounting load math |
+| [specs.md](specs.md) | Consolidated specs quick-reference (speakers, amps, sub, Furman) — pulled from manuals |
 | [signal-chain.md](signal-chain.md) | Signal flow diagrams for both zones |
 | [power.md](power.md) | Power conditioning and protection |
-| [calibration.md](calibration.md) | Audyssey runs, settings, room notes |
+| [calibration.md](calibration.md) | Audyssey MultEQ XT runs, real SR5014 menu paths, room notes |
 | [troubleshooting.md](troubleshooting.md) | Known issues and recovery procedures |
 | [maintenance-log.md](maintenance-log.md) | Dated log of changes, swaps, recalibrations |
 | [manuals.md](manuals.md) | Index of all equipment manuals — links to manufacturer source PDFs; local PDFs in [`manuals/`](manuals/) (gitignored) |
