@@ -53,7 +53,7 @@ Tracks every piece of equipment in the system and where to find its official man
 | **Rockville RHSB8** Adjustable Wall Mount Speaker Brackets | Assembly instructions | [PDF](https://rockvilleaudio.com/cdn/shop/files/RHSB8_AssemblyInstructions_v3_OL.pdf?v=577152499094494001) | `Rockville-RHSB8-manual.pdf` |
 | **Vogel's VLB 200** Universal Speaker Wall Bracket | Mounting instructions | [PDF](https://brandportal.vogels.com/m/3bbdac2106b8921a/original/8120200_VLB200_MountingInstructions_Document.pdf) | `Vogel-VLB-200-manual.pdf` |
 | **Vogel's VLB 200** Universal Speaker Wall Bracket | Spec sheet / leaflet | [PDF](https://brandportal.vogels.com/m/4788bf9781a49829/original/8120200_VLB200_Leaflet_Document_EN.pdf) | `Vogel-VLB-200-spec-sheet.pdf` |
-| Heavy-duty black metal floating shelf (R2 Meta center) | Install guide | (varies — vendor TBD) | — |
+| Heavy-duty black metal floating shelf (R2 Meta center) | Product page | https://www.amazon.com/dp/B0BCYCGTP8 | — |
 | **IsoAcoustics Gaia III** isolation feet (Q500) | Install instructions | [PDF](https://isoacoustics.com/wp-content/uploads/2024/11/GAIA-II-III-instructions.EN-FR.pdf) | `isoacoustics-gaia-iii-install.pdf` |
 | **IsoAcoustics Gaia III** isolation feet (Q500) | Product manual | [PDF](https://jaguaraudio.com/wp-content/uploads/2021/07/IsoAcoustics-Product-Manual-2021.pdf) | `isoacoustics-gaia-iii-manual.pdf` |
 | **SVS SoundPath Subwoofer Isolation System** | Owner's manual | [PDF](https://soundapproach.com/pub/media/pdfs/SoundPath_SWIS_manual_10282013.pdf) | `svs-soundpath-subwoofer-isolation-manual.pdf` |
