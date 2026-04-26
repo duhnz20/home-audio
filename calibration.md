@@ -52,6 +52,25 @@ The SR5014 manual (p 181) describes two paths depending on whether the sub has a
 | Dynamic Volume | Settings → Audio → Audyssey → **Dynamic Volume** |
 | Reference Level Offset | Settings → Audio → Audyssey → **Reference Level Offset** (0 dB film / 5 dB classical / 10 dB jazz, TV / 15 dB pop, rock) |
 
+## MultEQ Editor app workflow (paid, $20)
+
+Source: https://www.digitalnoesis.org/home-theater/audyssey/
+
+The mobile **MultEQ Editor app** (iOS / Android) takes over after the in-AVR run completes — it lets you tweak the target curve, set per-speaker EQ rolloff, and save / reload calibrations. The recommended sequence:
+
+1. **Mic on a tripod at the main listening position, pointing straight up.**
+2. **3-position pre-check first.** Run a quick 3-position measurement and read back the **subwoofer trim**. Target is **−11 dB to −10 dB**. If sub trim falls outside that band, adjust the BIC F-12 volume knob and re-measure before committing to a full run.
+3. **Full 8-position sweep** once sub level is in band. Cover the seating area, subsequent positions within ~60 cm of the first.
+4. **Choose a target curve in the app:**
+   - **High Frequency Roll Off 1** — treated / dead room
+   - **High Frequency Roll Off 2** — live / reflective room
+5. **Per-channel post-cal tweaks (in the app):**
+   - **Limit main-channel EQ to 400–500 Hz** — preserves speaker character above that band; correction below handles the room, correction above starts fighting the speaker designer.
+   - **Disable midrange compensation** for high-quality speakers — Audyssey's BBC-dip correction can dull tonally accurate speakers.
+   - **Disable LFE EQ above ~250 Hz** if you're separately room-correcting the sub with REW (Audyssey and REW will fight above the crossover otherwise).
+
+After app refinements: upload back to the AVR and confirm via **Settings → Audio → Manual Setup** that the new trims / distances took.
+
 ## Audyssey post-run settings menu — what each does
 
 Source: SR5014 manual pp 157-160.

@@ -59,6 +59,12 @@ Tracks every piece of equipment in the system and where to find its official man
 | **SVS SoundPath Subwoofer Isolation System** | Owner's manual | [PDF](https://soundapproach.com/pub/media/pdfs/SoundPath_SWIS_manual_10282013.pdf) | `svs-soundpath-subwoofer-isolation-manual.pdf` |
 | **Non-Slip Self-Adhesive Silicone Cuttable Furniture Pads** | (no manual) | — | — |
 
+## Calibration / room correction
+
+| Component | Doc type | Source URL | Local file |
+|---|---|---|---|
+| **Audyssey MultEQ Editor** mobile app (iOS / Android, paid $20) | Workflow reference (3-pos sub check → 8-pos sweep → HF rolloff curve → per-channel EQ limits) | https://www.digitalnoesis.org/home-theater/audyssey/ | — *(external — no public PDF; in-app help is the official guide)* |
+
 ## Cabling
 
 | Component | Doc type | Source URL | Local file |
