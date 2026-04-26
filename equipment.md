@@ -67,16 +67,21 @@ The same wire + plug combination is used for **all 7 amp-driven speakers** (KEF 
 
 **14 AWG sanity check:** 14 AWG handles ≤25-30 ft runs at 4-8 Ω without meaningful resistive loss; appropriate for the longest run in this house. CCA (vs pure copper) is ~70% the conductivity of OFC at the same gauge — gauge oversizing compensates. Banana plugs are closed-screw (mechanical, no solder) — strip wire, insert into screw barrel, tighten.
 
-### Subwoofer interconnect
-| Item | Spec |
-|---|---|
-| Cable | (TBD — RCA from SR5014 sub/LFE pre-out → BIC F-12 RCA input) |
-
 ### Pre-out interconnects (SR5014 → Emotiva)
+**Cable used for ALL 7 SR5014 → Emotiva runs (5.1 main + Zone 2 stereo):**
+**Monoprice Premier Series XLR Male to RCA Male Cable** — 6 ft, black, E21 gold-plated connectors, 16 AWG shielded twisted pair, OFC braid conductors
+
+| Pre-out | Count | SR5014 end | Emotiva end |
+|---|---|---|---|
+| 5.1 pre-outs (FL / FR / C / SL / SR) | 5 | RCA-male into SR5014 RCA pre-out jack | XLR-male into Emotiva balanced XLR input |
+| Zone 2 pre-outs (L / R) | 2 | RCA-male into SR5014 Zone 2 RCA pre-out jack | XLR-male into Emotiva balanced XLR input |
+
+**Topology note:** the SR5014 has unbalanced RCA pre-outs, the Emotiva BasX A7+ accepts both RCA and balanced XLR. These cables convert connector type (RCA → XLR) but the signal remains unbalanced — XLR is used purely for the locking connector and good contact at the amp end. True balanced operation would require an AVR with balanced XLR pre-outs (the SR5014 doesn't have them).
+
+### Subwoofer interconnect (SR5014 sub/LFE pre-out → BIC F-12)
 | Item | Spec |
 |---|---|
-| 5.1 pre-outs (FL/FR/C/SL/SR) | (TBD — RCA, 5 cables) |
-| Zone 2 pre-outs (L/R) | (TBD — RCA, 2 cables) |
+| Cable | **Amazon Basics Subwoofer RCA Audio Cable** — gold-plated connectors (also marketed for S/PDIF / digital audio) |
 
 ### HDMI cabling
 | Run | Cable |
@@ -86,10 +91,14 @@ The same wire + plug combination is used for **all 7 amp-driven speakers** (KEF 
 | SR5014 HDMI OUT Monitor 2 → LG NanO75UQA (Zone 2) | Ultra Clarity CL3-rated flat HDMI 2.0 high-speed |
 
 ## Speaker isolation / mounting
+
 | Speaker | Mounting | Notes |
 |---|---|---|
-| KEF R3 (Front L/R) | (TBD — stands? speaker shelves?) | |
-| KEF R2 Meta (Center) | (TBD) | |
-| KEF Q150 (Surrounds) | (TBD — wall mount? stands?) | |
+| KEF R3 (Front L/R) | **Rockville RHSB8 Adjustable Wall Mount Speaker Brackets** (pair) | Wall-mounted in main room; adjustable angle for toe-in |
+| KEF R2 Meta (Center) | **3 × 12 in heavy-duty black metal floating shelf brackets** under the Zone 1 LG 75UN7370PUE | Centered below the TV, three brackets distribute the speaker's weight |
+| KEF Q150 (Surrounds) | **Vogel's VLB 200 Universal Speaker Wall Bracket** | Wall-mounted in main room |
 | KEF Q500 (Zone 2 L/R) | **IsoAcoustics Gaia III** isolation feet | Decouples cabinet from floor — reduces structure-borne resonance, tightens bass definition and stereo image |
-| BIC F-12 (Sub) | (TBD — direct on floor? isolation pad?) | |
+| BIC F-12 (Sub) | Sits on floor with **SVS SoundPath Subwoofer Isolation System** installed on the bottom | Decouples sub from floor — important in a high-rise / shared-wall context to reduce structure-borne bass transmission |
+
+### Anti-slip / vibration damping
+**Non-Slip Self-Adhesive Silicone Cuttable Furniture Pads** (5 × 40 in sheet, cuttable to size) installed on **all wall-bracketed speaker mounts** (R3 brackets, Q150 brackets, R2 Meta floating-shelf bracket contact points). Function: prevents speaker creep on bracket surfaces and adds a thin damping layer between speaker cabinet and metal mount.
